@@ -7,6 +7,8 @@ int main() {
    
     printf("Masukan nama anda : "); scanf("%s", &nama);
     printf("hello %s", nama);
+    printf("Masukan nama anda : "); scanf("%d", &nim);
+    printf("hello %d", nim);
 }
 
 // var hasil = "";
