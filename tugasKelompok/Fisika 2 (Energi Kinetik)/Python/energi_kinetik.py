@@ -1,0 +1,5 @@
+print("\tMenghitung Energi Kinetik")
+m = int(input("Masukan masa benda (Kg) "))
+v = int(input("Masukan masa benda (m/s) "))
+ek = float(0.5*v*m**2)
+print(f"Energi kinetik dari benda dengan massa {m} Kg dan kecepatan {v} m/s adalah {round(ek, 2)} joule ")

@@ -1,5 +1,5 @@
 import math
-print("\tmenghtung sisi miring segitiga siku-siku".upper())
+print("\tmenghtung sisi miring segitiga siku-siku")
 a = int(input("Masukan panjang sisi a "))
 b = int(input("Masukan panjang sisi b "))
 sisiMiring = math.sqrt((a**2)+(b**2))
