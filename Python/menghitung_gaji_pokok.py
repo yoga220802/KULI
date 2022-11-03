@@ -5,4 +5,4 @@ if mk > 3:
 else:
     tjg = float(0.1*gapok)
 gatot = float(gapok + tjg)
-print("gaji total anda adalah", gatot)
+print("gaji total anda adalah", round(gatot, 2))
