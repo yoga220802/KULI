@@ -6,18 +6,14 @@ int main(){
     int jml_arr = sizeof(makanan)/sizeof(*makanan), jenis, produk, jumlah;
     cout<<"\t---Jenis Produk---\n1. Makanan\n2. Minuman\nPilih jenis produk : ";
     cin>>(jenis);
-    switch (jenis)
-    {
+    switch (jenis){
     case 1:
         cout<<"\n\t--Daftar Makanan--"<<endl;
-        for (int i = 0; i < jml_arr; i++)
-            {
-                cout<<i+1<<". "<<makanan[i]<<" : "<<hargaMakanan[i]<<endl;
-            }
+        for (int i = 0; i < jml_arr; i++){
+                cout<<i+1<<". "<<makanan[i]<<" : "<<hargaMakanan[i]<<endl;}
         cout<<"Pilih makanan : ";
         cin>>(produk);
-        switch (produk)
-        {
+        switch (produk){
         case 1:
             namaProduk = makanan[0];
             hargaProduk = hargaMakanan[0];
@@ -33,19 +29,15 @@ int main(){
         default:
             namaProduk = "tidak tersedia";\
             hargaProduk = 0;
-            break;
-        }
+            break;}
         break;
     case 2:
         cout<<"\n\t--Daftar Minuman--"<<endl;
-        for (int i = 0; i < jml_arr; i++)
-            {
-                cout<<i+1<<". "<<minuman[i]<<" : "<<hargaMinuman[i]<<endl;
-            }
+        for (int i = 0; i < jml_arr; i++){
+                cout<<i+1<<". "<<minuman[i]<<" : "<<hargaMinuman[i]<<endl;}
         cout<<"Pilih minuman : ";
         cin>>(produk);
-        switch (produk)
-        {
+        switch (produk){
         case 1:
             namaProduk = minuman[0];
             hargaProduk = hargaMinuman[0];
@@ -61,12 +53,10 @@ int main(){
         default:
             namaProduk = " tidak tersedia";\
             hargaProduk = 0;
-            break;
-        }
+            break;}
         break;
     default:
-        break;
-    }
+        break;}
     cout<<"Ingin berapa banyak? ";
     cin>>(jumlah);
     cout<<"\nProduk yang anda pilih "<<namaProduk<<" sebanyak "<<jumlah<<", Total harganya adalah "<<hargaProduk*jumlah;
