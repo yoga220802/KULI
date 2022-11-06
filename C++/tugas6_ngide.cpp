@@ -3,11 +3,12 @@ using namespace std;
 int main(){
     string makanan[] = {"Kue", "Gorengan", "Bakso"}, minuman[] = {"Teh", "Kopi", "Air Mineral"}, namaProduk;
     int hargaMakanan[] = {5000, 2000, 7000}, hargaMinuman[] = {4000, 5000, 3000}, hargaProduk;
-    int jml_arr = sizeof(makanan)/sizeof(*makanan), jenis, produk, jumlah;
+    int jml_arr, jenis, produk, jumlah;
     cout<<"\t---Jenis Produk---\n1. Makanan\n2. Minuman\nPilih jenis produk : ";
     cin>>(jenis);
     switch (jenis){
     case 1:
+        jml_arr = sizeof(makanan)/sizeof(*makanan);
         cout<<"\n\t--Daftar Makanan--"<<endl;
         for (int i = 0; i < jml_arr; i++){
                 cout<<i+1<<". "<<makanan[i]<<" : "<<hargaMakanan[i]<<endl;}
@@ -27,11 +28,12 @@ int main(){
             hargaProduk = hargaMakanan[2];
             break;
         default:
-            namaProduk = "tidak tersedia";\
+            namaProduk = "tidak tersedia";
             hargaProduk = 0;
             break;}
         break;
     case 2:
+        jml_arr = sizeof(minuman)/sizeof(*minuman);
         cout<<"\n\t--Daftar Minuman--"<<endl;
         for (int i = 0; i < jml_arr; i++){
                 cout<<i+1<<". "<<minuman[i]<<" : "<<hargaMinuman[i]<<endl;}
@@ -51,11 +53,13 @@ int main(){
             hargaProduk = hargaMinuman[2];
             break;
         default:
-            namaProduk = " tidak tersedia";\
+            namaProduk = " tidak tersedia";
             hargaProduk = 0;
             break;}
         break;
     default:
+        namaProduk = " tidak tersedia";
+        hargaProduk = 0;
         break;}
     cout<<"Ingin berapa banyak? ";
     cin>>(jumlah);
