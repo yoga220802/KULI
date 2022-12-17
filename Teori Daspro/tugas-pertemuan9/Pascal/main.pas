@@ -1,5 +1,4 @@
 program main;
-// uses crt;
 uses sysutils;
 // deklarasi variabel
 var
@@ -17,7 +16,7 @@ begin
     dataMahasiswa[4][1]:='22 Agustus 2002'; dataMahasiswa[4][2]:='25 Desember 2002';
     // menampilkan data mahasiswa default
     writeln('       ---Daftar Mahasiswa---');
-    for i := 1 to n-1 do
+for i := 1 to n-1 do
     begin
         writeln(i);
         writeln('Nama                   : ', dataMahasiswa[0][i]);
@@ -30,28 +29,28 @@ begin
     write('Ingin menambah daftar mahasiswa(Y/t)? ');readln(tambah);
     tambah:=AnsiLowerCase(tambah);
     // penambahan data mahasiswa jika ingin ditambah
-    while tambah = 'y' do
+while tambah = 'y' do
     begin
-    write('Masukan Nama             : ');readln(nama);
-    write('Masukan NIM              : ');readln(nim);
-    write('Masukan Program Studi    : ');readln(prodi);
-    write('Masukan Tempat Lahir     : ');readln(tempatLahir);
-    write('Masukan Tanggal Lahir    : ');readln(tanggallahir);
-    writeln();
-    dataMahasiswa[0][n] := nama;
-    dataMahasiswa[1][n] := nim;
-    dataMahasiswa[2][n] := prodi;
-    dataMahasiswa[3][n] := tempatLahir;
-    dataMahasiswa[4][n] := tanggallahir;
-    n := n+1;
-    // konfirmasi apakah data mahasiswa ingin ditambah lagi atau tidak
-    write('Ingin menambah daftar mahasiswa lagi(Y/t)? ');readln(tambah);
-    tambah:=AnsiLowerCase(tambah);
-    writeln();
+        write('Masukan Nama             : ');readln(nama);
+        write('Masukan NIM              : ');readln(nim);
+        write('Masukan Program Studi    : ');readln(prodi);
+        write('Masukan Tempat Lahir     : ');readln(tempatLahir);
+        write('Masukan Tanggal Lahir    : ');readln(tanggallahir);
+        writeln();
+        dataMahasiswa[0][n] := nama;
+        dataMahasiswa[1][n] := nim;
+        dataMahasiswa[2][n] := prodi;
+        dataMahasiswa[3][n] := tempatLahir;
+        dataMahasiswa[4][n] := tanggallahir;
+        n := n+1;
+        // konfirmasi apakah data mahasiswa ingin ditambah lagi atau tidak
+        write('Ingin menambah daftar mahasiswa lagi(Y/t)? ');readln(tambah);
+        tambah:=AnsiLowerCase(tambah);
+        writeln();
     end;
     // menampilkan data mahasiswa terbaru
     writeln('       ---Daftar Mahasiswa Baru---');
-    for i := 1 to n-1 do
+for i := 1 to n-1 do
     begin
         writeln(i);
         writeln('Nama                   : ', dataMahasiswa[0][i]);
