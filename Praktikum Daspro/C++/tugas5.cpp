@@ -15,7 +15,7 @@ int main(){
     cout << "Masukan nilai tugas 4 : "; cin >> tugas4;
     cout << "Masukan nilai UTS : "; cin >> uts;
     cout << "Masukan nilai UAS : "; cin >> uas;
-    // assignment untuk menghitung rata-rata tugas dan nilai khir
+    // assignment untuk menghitung rata-rata tugas dan nilai akhir
     totalTugas = ((tugas1+tugas2+tugas3+tugas4)/4);
     nilaiAkhir = (totalTugas*0.4) + (uas*0.3) + (uts*0.3);
     // percabangan untuk menetukan grade
