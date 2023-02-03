@@ -12,7 +12,7 @@
     <li>Muhamad Rizki (2206062)</li>
 </ul>
 <h3>- Tema Program</h3>
-<b>Program Pencatatan Toko<b>
+<b>Program Pencatatan Toko</b>
 <br><br>
 Pembuatan program yang mencatat penjualan toko adalah salah satu solusi untuk mempermudah proses bisnis toko. Dalam bisnis, ada banyak hal yang harus dipantau dan dicatat dengan baik, seperti stok barang, pemasukan, pengeluaran, dan tentu saja penjualan. Penjualan merupakan salah satu hal penting yang harus diperhatikan karena merupakan sumber pemasukan bagi toko. Tanpa pemasukan, bisnis tidak akan bisa berjalan dengan baik. 
 <br><br>
