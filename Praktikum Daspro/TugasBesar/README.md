@@ -13,7 +13,8 @@
 </ul>
 <h3>Tema Program</h3>
 <b>Program Pencatatan Toko<b>
-TPembuatan program yang mencatat penjualan toko adalah salah satu solusi untuk mempermudah proses bisnis toko. Dalam bisnis, ada banyak hal yang harus dipantau dan dicatat dengan baik, seperti stok barang, pemasukan, pengeluaran, dan tentu saja penjualan. Penjualan merupakan salah satu hal penting yang harus diperhatikan karena merupakan sumber pemasukan bagi toko. Tanpa pemasukan, bisnis tidak akan bisa berjalan dengan baik. 
+<br><br>
+Pembuatan program yang mencatat penjualan toko adalah salah satu solusi untuk mempermudah proses bisnis toko. Dalam bisnis, ada banyak hal yang harus dipantau dan dicatat dengan baik, seperti stok barang, pemasukan, pengeluaran, dan tentu saja penjualan. Penjualan merupakan salah satu hal penting yang harus diperhatikan karena merupakan sumber pemasukan bagi toko. Tanpa pemasukan, bisnis tidak akan bisa berjalan dengan baik. 
 <br><br>
 Tujuan dari pembuatan program ini adalah untuk mempermudah proses pencatatan penjualan toko dan memastikan bahwa data penjualan yang dicatat akurat dan up-to-date. Program ini juga dapat membantu toko dalam melakukan analisis data penjualan, sehingga toko dapat membuat keputusan yang tepat dan bijak terkait dengan bisnisnya. 
 <br><br>
