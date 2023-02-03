@@ -2,7 +2,7 @@
 <h2 align = "center"> TEKNIK INFORMATIKA B 2022 </h2>
 <h2 align = "center"> Kelompok 4</h2>
 <br>
-<h3>Anggota Kelompok</h3>
+<h3>- Anggota Kelompok</h3>
 <ul>
     <li>Asep Ahmad Taufik (2206036)</li>
     <li>Dindin Mardiana (2206037)</li>
@@ -11,7 +11,7 @@
     <li>Yoga Agustiansyah (2206050)</li>
     <li>Muhamad Rizki (2206062)</li>
 </ul>
-<h3>Tema Program</h3>
+<h3>- Tema Program</h3>
 <b>Program Pencatatan Toko<b>
 <br><br>
 Pembuatan program yang mencatat penjualan toko adalah salah satu solusi untuk mempermudah proses bisnis toko. Dalam bisnis, ada banyak hal yang harus dipantau dan dicatat dengan baik, seperti stok barang, pemasukan, pengeluaran, dan tentu saja penjualan. Penjualan merupakan salah satu hal penting yang harus diperhatikan karena merupakan sumber pemasukan bagi toko. Tanpa pemasukan, bisnis tidak akan bisa berjalan dengan baik. 
