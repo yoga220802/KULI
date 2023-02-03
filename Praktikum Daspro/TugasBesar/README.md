@@ -12,8 +12,8 @@
     <li>Muhamad Rizki (2206062)</li>
 </ul>
 <h3>Tema Program</h3>
-<p><b>Program Pencatatan Toko<b></p>
-<p>Tujuan dari pembuatan program ini adalah untuk mempermudah proses pencatatan penjualan toko dan memastikan bahwa data penjualan yang dicatat akurat dan up-to-date. Program ini juga dapat membantu toko dalam melakukan analisis data penjualan, sehingga toko dapat membuat keputusan yang tepat dan bijak terkait dengan bisnisnya. 
+<b>Program Pencatatan Toko<b>
+TPembuatan program yang mencatat penjualan toko adalah salah satu solusi untuk mempermudah proses bisnis toko. Dalam bisnis, ada banyak hal yang harus dipantau dan dicatat dengan baik, seperti stok barang, pemasukan, pengeluaran, dan tentu saja penjualan. Penjualan merupakan salah satu hal penting yang harus diperhatikan karena merupakan sumber pemasukan bagi toko. Tanpa pemasukan, bisnis tidak akan bisa berjalan dengan baik. 
 <br><br>
 Tujuan dari pembuatan program ini adalah untuk mempermudah proses pencatatan penjualan toko dan memastikan bahwa data penjualan yang dicatat akurat dan up-to-date. Program ini juga dapat membantu toko dalam melakukan analisis data penjualan, sehingga toko dapat membuat keputusan yang tepat dan bijak terkait dengan bisnisnya. 
 <br><br>
@@ -23,4 +23,4 @@ Program ini adalah program pencatatan toko yang memiliki fitur untuk melakukan l
 <br><br>
 Program ini menggunakan salah satu konsep Object Oriented Programming (OOP) yaitu modular programming, yaitu gaya pemrograman yang membagi program komputer menjadi beberapa modul atau bagian-bagian yang terpisah. Setiap modul memiliki tugas tertentu dan saling bekerja sama untuk mencapai tujuan yang sama. Dalam OOP (Object Oriented Programming), modularitas dicapai dengan membagi program menjadi objek-objek yang masing-masing memiliki properti dan perilakunya sendiri. Ini memungkinkan untuk menulis kode yang lebih terorganisir dan mudah dikelola. 
 <br><br>
-Program ini terbagi menjadi 3 file utama, yaitu dataStorage.cpp yang berisi data-data yang akan digunakan oleh file program utama, functions.cpp yang berisi function-function yang nantinya akan digunakan oleh file program utama dan tugasBesar.cpp yang berfungsi sebagai file utama tempat dimana semua proses yang dilakukan program dijalankan. </p>
+Program ini terbagi menjadi 3 file utama, yaitu dataStorage.cpp yang berisi data-data yang akan digunakan oleh file program utama, functions.cpp yang berisi function-function yang nantinya akan digunakan oleh file program utama dan tugasBesar.cpp yang berfungsi sebagai file utama tempat dimana semua proses yang dilakukan program dijalankan.
