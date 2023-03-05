@@ -57,7 +57,7 @@ class LinkedList:
                 node = node.next
 
             if node is None:
-                raise ValueError("Data not found in the list")
+                raise ValueError("Data tidak ditemukan dalam list")
 
             if prev is None:
                 self.head = node.next
