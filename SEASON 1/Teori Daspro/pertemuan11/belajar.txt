@@ -1,7 +1,0 @@
-Nama: Andi
-Umur: 25
-Alamat: Kampung Durian Runtuh
-
-Nama: Eka
-Umur: 22
-Alamat: Kebon jeruk
