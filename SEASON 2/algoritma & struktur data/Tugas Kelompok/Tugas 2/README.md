@@ -6,5 +6,6 @@
 Untuk menjalankan program, cukup jalankan file main.py
 
 ## Requirement
-Python versi 3.10+
+Gunakan Python versi 3.10+
+
 _Jika anda menggunakan python dengan versi dibawah 3.10, silahkan cek di_
