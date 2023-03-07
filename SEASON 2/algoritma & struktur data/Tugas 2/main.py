@@ -62,19 +62,16 @@ while True:
                 linked_list.display()
             clear_screen()
         case 2:
-            # print("Pilihan 2")
             data = int(input("Masukan angka untuk ditambahkan di depan list : "))
             linked_list.insertAtBeginning(data)
             print("Data ditambahkan di depan list...")
             clear_screen()
         case 3:
-            # print("Pilihan 3")
             data = int(input("Masukan angka untuk ditambahkan di akhir list : "))
             linked_list.insertAtEnd(data)
             print("Data ditambahkan di akhir list...")
             clear_screen()
         case 4:
-            # print("Pilihan 4")
             if linked_list.head is not None:
                 print("Linked List: ", end="")
                 linked_list.display()
@@ -89,13 +86,11 @@ while True:
                 print("List masih kosong, silahkan tambahkan elemen kedalam list...")
             clear_screen()
         case 5:
-            # print("Pilihan 5")
             data = int(input("Masukan data yang ingin dicari : "))
             node = linked_list.searchNode(data)
             print("Node ditemukan dalam linked list" if node else "Node tidak ditemukan dalam list")
             clear_screen()
         case 6:
-            # print("Pilihan 6")
             if linked_list.head is None:
                 print("List masih kosong, silahkan tambahkan elemen kedalam list...")
             else:
