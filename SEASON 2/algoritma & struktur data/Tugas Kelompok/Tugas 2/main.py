@@ -42,9 +42,9 @@ while True:
 {garis}
                     Algoritma & Struktur Data
                             Kelompok 6
-                Yoga Agustiansyah\t\t: 2206050
-                Moch Nashrull Maulana Fazri\t: 2206058
-                Mutia Sri Lestari\t\t: 2206064
+            Yoga Agustiansyah\t\t: 2206050
+            Moch Nashrull Maulana Fazri\t: 2206058
+            Mutia Sri Lestari\t\t: 2206064
 {garis}
 ''')
     print("\t\t\tMenu Linked List")
