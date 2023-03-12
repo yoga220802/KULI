@@ -1,7 +1,7 @@
 # Moch Nashrull Maulana Fazri (2206058)
 
 import os
-# os.system('cls' if os.name == 'nt' else 'clear')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 BOLD = "\033[1m"
 RESET = "\033[0m"
