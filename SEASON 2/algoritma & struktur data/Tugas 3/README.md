@@ -5,4 +5,4 @@
 ![SOAL](./assets/soal.jpeg)
 
 ### Jalankan program
-`py *nama_file.py*`
+<pre>py <em>nama_file.py</em></pre>
